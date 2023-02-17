@@ -1,0 +1,62 @@
+
+
+/*//////////////////////////
+===== component - card =====
+//////////////////////////*/
+
+/*========= card - 基礎設定 =========*/
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: $color-white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.card-body {
+  flex: 1 1 auto;
+}
+.card-img {
+  aspect-ratio: 1.618 / 1;
+  overflow: hidden
+}
+.card-img img {
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.card-title {
+  @include text-xl;
+}
+.card-subtitle {
+  @include text-base;
+}
+.card-text {
+  @include text-sm;
+}
+.card-tag-text {
+  @include text-base;
+}
+.card-text-icon-wrap {
+  display: flex;
+  align-items: center;
+}
+.line-thought {
+  text-decoration-line: line-through;
+  text-decoration-color: $color-text-main;
+}
+
+
+
+
+.title {
+  @include text-xl;
+}
+.subtitle {
+  @include text-base;
+}
+.text {
+  @include text-sm;
+}
+.tag-text {
+  @include text-base;
+}
